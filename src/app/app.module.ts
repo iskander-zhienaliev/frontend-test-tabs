@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MyComponentComponent } from './my-component/my-component.component';
+import { TabsModule } from "./tabs/tabs.module";
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { MyComponentComponent } from './my-component/my-component.component';
     MyComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    TabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
